@@ -25,7 +25,8 @@ while (sort_position < size - 1)
 cursor = sort_position + 1;
 min_position = cursor;
 
-while (cursor < size){
+while (cursor < size)
+{
 if (array[cursor] < array[min_position])
 {
 min_position = cursor;
